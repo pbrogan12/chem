@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Chapter 4
 ---
 
@@ -193,73 +193,73 @@ Subjective Probabilities
 > **Notation**
 > P(A and B) = P(event A occurs in a first trial and event B occurs in a second trial)
 >
-> P(B|A) represents the probability of event B occuring after it is assumed that event A has already occurred. (Interpret B|A as "event B occurring after event A has already occurred.")
+> P(B|A) represents the probability of event B occuring after it is assumed that event A has already occurred.(Interpret B|A as "event B occurring after event A has already occurred.")
 
----
+ ---
 
-> **Formal Multiplication Rule**
-> P(A and B) = P(A) • P(B|A)
+ > **Formal Multiplication Rule**
+ > P(A and B) = P(A) • P(B|A)
 
----
+ ---
 
-> **Intuitive Multiplication Rule**
->
-> To find the probability that event A occurs in one trial and event B occurs in another trial, multiply the probability of event A by the probability of event B, but be sure that the probability of event B takes into account the previous occurrence of event A.
+ > **Intuitive Multiplication Rule**
+ >
+ > To find the probability that event A occurs in one trial and event B occurs in another trial, multiply the probability of event A by the probability of event B, but be sure that the probability of event B takes into account the previous occurrence of event A.
 
----
+ ---
 
-> Two events A and B are **independent** if the occurrence of one does not affect the probability of the occurrence of the other. (Several events are similarly independent if the occurrence if any does not affect the probabilities of the occurrence of the others.) If A and B are not independent, they are said to be **dependent**.
+ > Two events A and B are **independent** if the occurrence of one does not affect the probability of the occurrence of the other. (Several events are similarly independent if the occurrence if any does not affect the probabilities of the occurrence of the others.) If A and B are not independent, they are said to be **dependent**.
 
----
+ ---
 
-* Sampling with replacemnt: Selections are independent events.
+ * Sampling with replacemnt: Selections are independent events.
 
-* Sample without replacemnt: Selections are dependent events.
+ * Sample without replacemnt: Selections are dependent events.
 
----
+ ---
 
-> **Exception: Treating Dependent Events as Independent**
->
-> Some cumbersome calculations can be greatly simplified by using the common practice of treating events as independent when small samples are drawn from large populations.  In such cases, it is rare to select the same item twice.
+ > **Exception: Treating Dependent Events as Independent**
+ >
+ > Some cumbersome calculations can be greatly simplified by using the common practice of treating events as independent when small samples are drawn from large populations.  In such cases, it is rare to select the same item twice.
 
----
+ ---
 
-> **Treating Dependent Events as Independent: 5% Guideline for Cumbersome Calculations**
->
-> When calculations with sampling are very cumbersome and the sample size is no more than 5% of the size of the population, treat the selections as being independent (even if they are actually dependent.)
+ > **Treating Dependent Events as Independent: 5% Guideline for Cumbersome Calculations**
+ >
+ > When calculations with sampling are very cumbersome and the sample size is no more than 5% of the size of the population, treat the selections as being independent (even if they are actually dependent.)
 
----
+ ---
 
-### 4-5 Multiplication Rule: Complements and Conditional Probability
----
+ ### 4-5 Multiplication Rule: Complements and Conditional Probability
+ ---
 
-Complements and Conditional Probability Two Special Applications
+ Complements and Conditional Probability Two Special Applications
 
-* **Probability of "at least one:"** Find the probability that among several trials, we get at least one of some specified event.
+ * **Probability of "at least one:"** Find the probability that among several trials, we get at least one of some specified event.
 
-* **Conditional probability:** Find the probability of an event occurring when we have additional information that some other event has already occurred.
+ * **Conditional probability:** Find the probability of an event occurring when we have additional information that some other event has already occurred.
 
----
+ ---
 
-> A **conditional probability** of an event is a probability obtained with the additional information that some other events has already occurred. P(B|A) denotes that conditional probability of event B occurring, given that event A has already occurred. P(B|A) can be found by dividing the probability of events A and B occuring by the probability of event A:
+ > A **conditional probability** of an event is a probability obtained with the additional information that some other events has already occurred. P(B|A) denotes that conditional probability of event B occurring, given that event A has already occurred. P(B|A) can be found by dividing the probability of events A and B occuring by the probability of event A:
 
----
+ ---
 
-```
-           P(A and B)
-P(B|A) =  ------------
-              P(A)
-```
+ ```
+            P(A and B)
+ P(B|A) =  ------------
+               P(A)
+ ```
 
----
+ ---
 
-### 4-6 Counting
----
+ ### 4-6 Counting
+ ---
 
-> **Permutations** of items are arrangements in which different sequences of the same items are counted separately.  For example, with the letters {a,b,c}, the arrangements of abc, acb, bac, cab, and cba are all considered separately as six different permutations.
+ > **Permutations** of items are arrangements in which different sequences of the same items are counted separately.  For example, with the letters {a,b,c}, the arrangements of abc, acb, bac, cab, and cba are all considered separately as six different permutations.
 
----
+ ---
 
-> **Combinations** of items are arrangements in which different sequences of the same items are not counted separately.  For example. with the letters {a,b,c}, the arrangements of abc, acb, bac, cab, and cba are all considered to be same combination.
+ > **Combinations** of items are arrangements in which different sequences of the same items are not counted separately.  For example. with the letters {a,b,c}, the arrangements of abc, acb, bac, cab, and cba are all considered to be same combination.
 
----
+ ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Chapter 2
 ---
 
@@ -125,11 +125,12 @@ A histogram that has a bell shaped curve has normal distribution.
 
 1. Skewed to the right or the left
 
-!['Distributions'](http://image.tutorvista.com/calc_images/image/math/ama1.JPG)
+<img width="100%" src="http://image.tutorvista.com/calc_images/image/math/ama1.JPG">
 
-3. Uniform distribution
+2. Uniform distribution
 
-!['Uniform Distribution'](http://i.msdn.microsoft.com/dynimg/IC169495.gif)
+<img width="100%" src="http://i.msdn.microsoft.com/dynimg/IC169495.gif">
+
 ---
 
 ## 2-4 Graphs That Enlighten and Graphs That Decieve
