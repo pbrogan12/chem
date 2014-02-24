@@ -1,4 +1,0 @@
-slick
-=====
-
-A Jekyll theme
