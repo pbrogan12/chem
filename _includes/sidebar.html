@@ -1,0 +1,25 @@
+<div class="col-md-3 hidden-xs hidden-sm" style="padding-left: 0px;">
+  <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="0">
+    <h1 class="text-center" style="color: #DB4437;"><a href="{{site.baseurl}}">{{ site.name }}</a></h1>
+      {% for p in site.pages %}
+        {% if p.title != "Home" %}
+            <li class="{% if page.url == p.url %} active{% endif %}">
+              <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+            </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+</div>
+
+<div class="col-md-3 hidden-lg hidden-md" style="padding-left: 0px; background-color: #E6E6E6;">
+  <ul class="nav nav-pills nav-stacked">
+    <h1 class="text-center" style="color: #DB4437;">{{ site.name }}</h1>
+      {% for p in site.pages %}
+        {% if p.title != "Home" %}
+            <li class="{% if page.url == p.url %} active{% endif %}">
+              <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+            </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+</div>
