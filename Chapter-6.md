@@ -37,7 +37,7 @@ title: Chapter 6
 
 1. The total area under the curve must equal 1.
 
-2. Every point on the curve must have a verticle height that is 0 or greater.  (That is, the curve cannot fall below the x-axis.)
+2. Every point on the curve must have a vertical height that is 0 or greater.  (That is, the curve cannot fall below the x-axis.)
 
 ---
 
@@ -77,7 +77,7 @@ z = ------- (round z scores to 2 decimal places)
 
 1. Sketch a normal curve, label the mean and any specific x values, then shade the region representing the desired probability.
 
-2. For each revelant value x that is a boundary for the shaded region, use Formula 6-2 to convert that value to the equivalent z score.
+2. For each relevant value x that is a boundary for the shaded region, use Formula 6-2 to convert that value to the equivalent z score.
 
 3. Use computer software or a calculator or Table A-2 to find the area of the shaded region.  This area is the desired probability.
 
@@ -86,7 +86,7 @@ z = ------- (round z scores to 2 decimal places)
 
 1. **Don't confuse z scores and areas.**  Remember, z scores are distances along the horizontal scale, but areas are regions under the normal curve.  Table A-2 lists z scores in the left columns and across the top row, but areas are found in the body of the table.
 
-2. **Choose the correct (right/left) side of the graph.  A value seperating the top 10% from the others will be located on the right side of the graph, but a value seperating the bottom 10% will be located on the left side of the graph.
+2. **Choose the correct (right/left) side of the graph.  A value separating the top 10% from the others will be located on the right side of the graph, but a value separating the bottom 10% will be located on the left side of the graph.
 
 3. A z score must be negative whenever it is located in the left half of the normal distribution.
 
@@ -126,7 +126,7 @@ x = µ + (z • σ)
 ### Sampling Distribution of the Sample Mean
 ---
 
-> The **sampling distribution of the sample mean** is the distribution of all possible sample means (or the distribution of the the variable x) with all samples having the same sample size n taken from the same population.  (The sampling distribution of the sample mean is typically represented as a probability distribution in the format of a table, probability histogram, or formula.)
+> The **sampling distribution of the sample mean** is the distribution of all possible sample means (or the distribution of  the variable x) with all samples having the same sample size n taken from the same population.  (The sampling distribution of the sample mean is typically represented as a probability distribution in the format of a table, probability histogram, or formula.)
 
 ---
 
@@ -153,7 +153,7 @@ x = µ + (z • σ)
 
 1. The sample variances target the value of the population variance.  (That is, the mean of the sample variances is the population variance.  The expected value of the sample variance is equal to the population variance.)
 
-2. The distribution of sample variances tends to be a distribution skewd to the right.
+2. The distribution of sample variances tends to be a distribution skewed to the right.
 
 ---
 
@@ -191,7 +191,7 @@ x = µ + (z • σ)
 
 ---
 
-### Unbiased Esitmators
+### Unbiased Estimators
 ---
 
 These statistics are unbiased estimators.  That is, they each target the value of the corresponding population parameter:
@@ -216,13 +216,13 @@ The statistics are biased estimators.  That is, they do not target the value of 
 ### Why sample with replacement?
 ---
 
-1. When selecting a relatively small sample from a large population, it makes no significant differnece whether we sample with replacement or without replacement.
+1. When selecting a relatively small sample from a large population, it makes no significant difference whether we sample with replacement or without replacement.
 
-2. Sampling with replacement results in independent events that are unaffected by previous outcomes, and independent events are easier to analyze and result in simplier calculations and formulas.
+2. Sampling with replacement results in independent events that are unaffected by previous outcomes, and independent events are easier to analyze and result in simpler calculations and formulas.
 
 ---
 
-> **Cauction** Many methods of statistics require a simple random sample.  Some samples, such as voluntary response samples or convenience samples, could easily result in a very wrong results.
+> **Caution** Many methods of statistics require a simple random sample.  Some samples, such as voluntary response samples or convenience samples, could easily result in a very wrong results.
 
 ---
 
@@ -245,7 +245,7 @@ The statistics are biased estimators.  That is, they do not target the value of 
 
 > **Notation for the Sampling Distribution of x&#772; **
 >
-> If all posible simple random samples of size n are selected from a population with mean µ and standard deviation σ, the mean of the sample means is denoted by µ x&#772; and the standard deviation of all sample means is denoted by σ x&#772; . (σ x&#772; is called the standard error of mean.)
+> If all possible simple random samples of size n are selected from a population with mean µ and standard deviation σ, the mean of the sample means is denoted by µ x&#772; and the standard deviation of all sample means is denoted by σ x&#772; . (σ x&#772; is called the standard error of mean.)
 >
 > Mean of all values x&#772;: µx&#772; = µ
 >
@@ -253,10 +253,10 @@ The statistics are biased estimators.  That is, they do not target the value of 
 
 ---
 
-## 6-6 Assesing Normality
+## 6-6 Assessing Normality
 ---
 
-> A **normal quantile plot** (or **normal probability plot**) is a graph of points (x,y) where each x value is from the orginal set of sample data, and each y value is the corresponding z score that is a quantile value expected from the standard normal distribution.
+> A **normal quantile plot** (or **normal probability plot**) is a graph of points (x,y) where each x value is from the original set of sample data, and each y value is the corresponding z score that is a quantile value expected from the standard normal distribution.
 
 ---
 
@@ -266,7 +266,7 @@ The statistics are biased estimators.  That is, they do not target the value of 
 
 1. Histogram: Construct a histogram.  If the histogram departs dramatically from a bell shape, conclude that the data do not have a normal distribution
 
-2. Outliers: Identify outliers.  If there is more than one outlier present, conclude that the data do not have a normal distribution.  (Just one outlier could be an error or the result of chance variation, but be careful, becuase even a single outlier can have dramatic effect on results.)
+2. Outliers: Identify outliers.  If there is more than one outlier present, conclude that the data do not have a normal distribution.  (Just one outlier could be an error or the result of chance variation, but be careful, because even a single outlier can have dramatic effect on results.)
 
 3. Normal quantile plot: If the histogram is basically symmetric and the number of outliers is 0 or 1, use technology to generate a normal quantile plot.  Apply the following criteria to determine whether or not the distribution is normal.  (These criteria can be used loosely for small samples, but they should be used more strictly for large samples.)
 
@@ -304,4 +304,4 @@ The statistics are biased estimators.  That is, they do not target the value of 
 **Using Probabilities to Determine When Results Are Unusual**
 ---
 
-* **Unusually high number of successes:** x successes among n trials is an unusually high number of sucess if the probability of x or more successes is unlikely with a probability of 0.05 or less.  This criterion can be
+* **Unusually high number of successes:** x successes among n trials is an unusually high number of success if the probability of x or more successes is unlikely with a probability of 0.05 or less.  This criterion can be
