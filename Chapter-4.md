@@ -6,7 +6,7 @@ title: Chapter 4
 ## 4-1 Review and Preview
 ---
 
-> **Rare Event Rule for Inferential Statistcs**
+> **Rare Event Rule for Inferential Statistics**
 >
 > If, under a given assumption, the probability of a particular observed event is extremely small, we conclude that the assumption is probably not correct.
 
@@ -23,7 +23,7 @@ title: Chapter 4
 
 ---
 
-> The **sample space** for a procedure consists of all possible simple events.  That is, the sample space consits of all outcomes that cannot be broken down any further.
+> The **sample space** for a procedure consists of all possible simple events.  That is, the sample space consists of all outcomes that cannot be broken down any further.
 
 ---
 
@@ -38,7 +38,7 @@ title: Chapter 4
 
 ---
 
-> With one birth, the result of 1 female is a simple event because is cannot be broken down any further.  With three births, the event of "2 girls and 1 boy" is not a simple event because it can be broken into simpler events, such as ggb, gbg, or bgg.  With three births, the ***sample space*** consists of the eight simple events listed above.  With three births, the outcome of ggb is considered a simple event, becasue it is an outcome that cannot be broken down any further.  We might incorrectly think that ggb can be further broken down into the individual results of g, g, and b, but g, g, and b are not individual outcomes that are simple events: bbb, bbg, bgb, bgg, gbb, gbg, ggb, and ggg.
+> With one birth, the result of 1 female is a simple event because is cannot be broken down any further.  With three births, the event of "2 girls and 1 boy" is not a simple event because it can be broken into simpler events, such as ggb, gbg, or bgg.  With three births, the ***sample space*** consists of the eight simple events listed above.  With three births, the outcome of ggb is considered a simple event, because it is an outcome that cannot be broken down any further.  We might incorrectly think that ggb can be further broken down into the individual results of g, g, and b, but g, g, and b are not individual outcomes that are simple events: bbb, bbg, bgb, bgg, gbb, gbg, ggb, and ggg.
 
 ---
 
@@ -48,7 +48,7 @@ title: Chapter 4
 >
 > A, B, and C denote specific events.
 >
-> P(A) denotes the probability of event A occuring.
+> P(A) denotes the probability of event A occurring.
 
 ---
 
@@ -67,7 +67,7 @@ P(A) = -------------------------------------------
 
 Classical Approach to Probability (Requires Equally Likely Outcomes)
 
-  * Assume that a given procedure has ***n*** different simple events and that each of those simple events has an equal chance of occurring.  If event A can occur in s of these n ways then
+  * Assume that a given procedure has **n** different simple events and that each of those simple events has an equal chance of occurring.  If event A can occur in s of these n ways then
 
 ```
             number of ways A occur                s
@@ -96,7 +96,7 @@ Subjective Probabilities
 ### Complementary Events
 ---
 
-> The **complement** of event A, denoted by A, consits of all outcomes in which event A does not occur.
+> The **complement** of event A, denoted by A, consists of all outcomes in which event A does not occur.
 
 ---
 
@@ -118,13 +118,13 @@ Subjective Probabilities
 
   * The probability of an event is a fraction or decimal number between 0 and 1 inclusive.
   * The probability of an impossible event is 0.
-  * THe probability of an event that is certain to occur is 1.
+  * The probability of an event that is certain to occur is 1.
   * Notation: The probability of event A is denoted by P(A).
   * Notation: The probability that event A does not occur is denoted by P(A).
 
 ---
 
-> That **actual odds against** event A occuring are the ratio P(A)/P(A) usually expressed in the form of a:b where a and b are integers having no common factors.
+> That **actual odds against** event A occurring are the ratio P(A)/P(A) usually expressed in the form of a:b where a and b are integers having no common factors.
 
 ---
 
@@ -193,7 +193,7 @@ Subjective Probabilities
 > **Notation**
 > P(A and B) = P(event A occurs in a first trial and event B occurs in a second trial)
 >
-> P(B|A) represents the probability of event B occuring after it is assumed that event A has already occurred.(Interpret B|A as "event B occurring after event A has already occurred.")
+> P(B|A) represents the probability of event B occurring after it is assumed that event A has already occurred.(Interpret B|A as "event B occurring after event A has already occurred.")
 
  ---
 
@@ -212,9 +212,9 @@ Subjective Probabilities
 
  ---
 
- * Sampling with replacemnt: Selections are independent events.
+ * Sampling with replacement: Selections are independent events.
 
- * Sample without replacemnt: Selections are dependent events.
+ * Sample without replacement: Selections are dependent events.
 
  ---
 
@@ -241,7 +241,7 @@ Subjective Probabilities
 
  ---
 
- > A **conditional probability** of an event is a probability obtained with the additional information that some other events has already occurred. P(B|A) denotes that conditional probability of event B occurring, given that event A has already occurred. P(B|A) can be found by dividing the probability of events A and B occuring by the probability of event A:
+ > A **conditional probability** of an event is a probability obtained with the additional information that some other events has already occurred. P(B|A) denotes that conditional probability of event B occurring, given that event A has already occurred. P(B|A) can be found by dividing the probability of events A and B occurring by the probability of event A:
 
  ---
 
