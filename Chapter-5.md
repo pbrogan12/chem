@@ -74,7 +74,7 @@ When applying Formulas 5-1 through 5-4, use the following rule for rounding resu
 ### Making Sense of Results: Identifying Unusual Values
 ---
 
-### Identifying Unusual Resutls with Range Rule of Thumb
+### Identifying Unusual Results with Range Rule of Thumb
 ---
 
 > **Range Rule of Thumb**
@@ -87,11 +87,11 @@ When applying Formulas 5-1 through 5-4, use the following rule for rounding resu
 
 **Using Probabilities to Determine When Results are Unusual**
 
-* **Unusually high number of successes:** x successes among ***n*** trials is an unusally high number of successes if the probability of x or more successes is unlikely with a probability of 0.05 or less.  This criterion can be expressed as follows: P(x or more) ≤ 0.05.*
+* **Unusually high number of successes:** x successes among **n** trials is an unusually high number of successes if the probability of x or more successes is unlikely with a probability of 0.05 or less.  This criterion can be expressed as follows: P(x or more) ≤ 0.05.*
 
-* **Unusually low number of successes:** x successes among ***n*** trials is an unusally low number of successes if the probability of x or fewer successes is unlikely with a probability of 0.05 or less.  This criterion can be expressed as follows: P(x or fewer) ≤ 0.05.*
+* **Unusually low number of successes:** x successes among **n** trials is an unusually low number of successes if the probability of x or fewer successes is unlikely with a probability of 0.05 or less.  This criterion can be expressed as follows: P(x or fewer) ≤ 0.05.*
 
-* The value 0.05 is not absolutely rigid.  Other values, such as 0.01, could be used to distinquish between results that can easily occur by chance and events that are very unlikely to occur by chance.
+* The value 0.05 is not absolutely rigid.  Other values, such as 0.01, could be used to distinguish between results that can easily occur by chance and events that are very unlikely to occur by chance.
 
 ---
 
@@ -168,7 +168,7 @@ A **binomial probability distribution** results from a procedure that meets all 
 > **1.** The random variable x is the number of occurrences of an event over some interval.
 > **2.** The occurrences must be random.
 > **3.** The occurrences must be independent of each other.
-> **4.** The occurrences must be uniformaly distributed over the interval being used.
+> **4.** The occurrences must be uniformly distributed over the interval being used.
 
 ---
 
@@ -190,7 +190,7 @@ A Poisson distribution differs from a binomial distribution in the fundamental w
 ### Poisson Distribution as an Approximation to the Binomial Distribution
 ---
 
-The Poisson distribution is sometimes used to approximate the binomial distribution when n is large and p is small.  One rule of the thumb is to use such an approximation when the following two requirements are both satified.
+The Poisson distribution is sometimes used to approximate the binomial distribution when n is large and p is small.  One rule of the thumb is to use such an approximation when the following two requirements are both satisfied.
 
 
 **Requirements for Using the Poisson Distribution as an Approximation to the Binomial**
