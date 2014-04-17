@@ -43,11 +43,11 @@ title: Chapter 2
 
 ---
 
-> **Class boundaries** - are the numbers used to seperate the classes, but without the gaps created by class limits.  Figure 2-1 shows the gaps created by the class limits from Table 2-2.  In Figure 2-1 we see that the values of 69.5, 89.5, 109.5, and 129.5 are in the centers of those gaps, and following the patteren of those class boundaries, we see that the lowest class boundary is 49.5 and the highest class boundary is 149.5.  Thus the complete list of class boundaries is 49.5, 69.5, 89.5, 109.5, 129.5, and 149.5.
+> **Class boundaries** - are the numbers used to separate the classes, but without the gaps created by class limits.  Figure 2-1 shows the gaps created by the class limits from Table 2-2.  In Figure 2-1 we see that the values of 69.5, 89.5, 109.5, and 129.5 are in the centers of those gaps, and following the pattern of those class boundaries, we see that the lowest class boundary is 49.5 and the highest class boundary is 149.5.  Thus the complete list of class boundaries is 49.5, 69.5, 89.5, 109.5, 129.5, and 149.5.
 
 ---
 
-> **Class midpoints** - are the values in the middle of the classes.  Table 2-2 has class midpoints of 59.5, 79.5, 99.5, 119.5, and 139.5.  Each class midpoint is computed by adding the lower class limit to the uppper class limit and dividing the sum by 2.
+> **Class midpoints** - are the values in the middle of the classes.  Table 2-2 has class midpoints of 59.5, 79.5, 99.5, 119.5, and 139.5.  Each class midpoint is computed by adding the lower class limit to the upper class limit and dividing the sum by 2.
 
 ---
 
@@ -105,11 +105,11 @@ Percentage for a class = frequency for a class / sum of all frequencies * 100%
 
 ---
 
-> A histogram - is agraph consisting of bars of equal width drawn adjacent to each other (unless there are gaps in the data).  The horizontal scale represents classes of quantitative data values and the vertical scale represents frequencies.  The heights of the bars correspond to the frequency values.
+> A histogram - is a graph consisting of bars of equal width drawn adjacent to each other (unless there are gaps in the data).  The horizontal scale represents classes of quantitative data values and the vertical scale represents frequencies.  The heights of the bars correspond to the frequency values.
 
 ---
 
-> A relative frequency histogram has the same shape and horizontal scale as a histogram, but the veritcal scale uses relative frequencies (as percentages or proportions) instead of actual frequencies.
+> A relative frequency histogram has the same shape and horizontal scale as a histogram, but the vertical scale uses relative frequencies (as percentages or proportions) instead of actual frequencies.
 
 ---
 
@@ -133,7 +133,7 @@ A histogram that has a bell shaped curve has normal distribution.
 
 ---
 
-## 2-4 Graphs That Enlighten and Graphs That Decieve
+## 2-4 Graphs That Enlighten and Graphs That Deceive
 
 ---
 
