@@ -29,7 +29,7 @@ title: Chapter 1
 
 ---
 
-> **A Sample** - is a subcollection of members selected fron a population.
+> **A Sample** - is a subcollection of members selected from a population.
 > It's common to use a sample to form a conclusion about the population.
 
 
@@ -68,7 +68,7 @@ title: Chapter 1
   * Do the results have statistical significance?
   * Do the results have practical significance?
 
-> **A Voluntary Response Sample** - is one which the respondents themeselves decide whether to be included.
+> **A Voluntary Response Sample** - is one which the respondents themselves decide whether to be included.
 
 
 ---
@@ -83,7 +83,7 @@ title: Chapter 1
 6. Nonresponse
 7. Missing Data
 8. Precise Numbers
-9. Precentages
+9. Percentages
 
 ## 1-3 Types of Data
 ---
@@ -100,7 +100,7 @@ title: Chapter 1
 
 ---
 
-> **Categorical Data** - consist of names or lables that are not numbers representing counts or measurements.
+> **Categorical Data** - consist of names or labels that are not numbers representing counts or measurements.
 
 ---
 
@@ -114,7 +114,7 @@ title: Chapter 1
 
 ### Discrete/Continuous
 
-  * **Discrete Data of the Finite Type:** The numbers of eggs that hens lay in one week are ***discrete*** data because they are finite numbers, such as 5 and 7 that result from a counting process.
+  * **Discrete Data of the Finite Type:** The numbers of eggs that hens lay in one week are **discrete** data because they are finite numbers, such as 5 and 7 that result from a counting process.
 
   * **Discrete Data of the infinite Type:** Consider the number of rolls of a die required to get an outcome of 2.  It is possible that you could roll a die forever without ever getting a 2, but you can still count the number of rolls as you proceed.  The collection of rolls is countable, because you can count them, even though you might go on counting forever.
 
