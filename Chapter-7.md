@@ -10,7 +10,7 @@ title: Chapter 7
 ## 7-2 Estimating a Population Proportion
 ---
 
-* **Point Estimate:** The sample proportion (denoted by p̂) is the best point estimate (or signle value estimate) of the population proportion p.
+* **Point Estimate:** The sample proportion (denoted by p̂) is the best point estimate (or single value estimate) of the population proportion p.
 
 * **Confidence Interval:** We can use a sample proportion to construct a confidence interval estimate of the true value of a population proportion, and we should know how to construct and interpret such confidence intervals.
 
@@ -29,11 +29,11 @@ title: Chapter 7
 ### Why do we need confidence intervals?
 ---
 
-> A **confidence interval** (or **interval estimate**) is a range (or an interval) of values used to estimate the true value of a population paramter.  A confidence interval is sometime abbreviated as CI.
+> A **confidence interval** (or **interval estimate**) is a range (or an interval) of values used to estimate the true value of a population parameter.  A confidence interval is sometime abbreviated as CI.
 
 ---
 
-> The **confidence level** is the probability 1 - a (such as 0.95, or 95%) that the confidence interval actually does contain the population parameter, assuming that the esimation process is repeated a large number of times.  (The confidence level is also called the **degree of confidence**, or the **confidence coefficient.**)
+> The **confidence level** is the probability 1 - a (such as 0.95, or 95%) that the confidence interval actually does contain the population parameter, assuming that the estimation process is repeated a large number of times.  (The confidence level is also called the **degree of confidence**, or the **confidence coefficient.**)
 
 ---
 
@@ -49,16 +49,16 @@ A confidence interval is associated with a specific confidence level, such as 0.
 
 ---
 
-### Interpeting a Confidence Interval
+### Interpreting a Confidence Interval
 ---
 
-We must be careful to interpet confidence intervals correctly.  There is a correct interpretation and many different and creative incorrect interpretations of the confidence interval 0.828 < p < 0.872.
+We must be careful to interpret confidence intervals correctly.  There is a correct interpretation and many different and creative incorrect interpretations of the confidence interval 0.828 < p < 0.872.
 
-** Correct:** "We are 95% confident that the interval from 0.828 to 0.872 actually does contain the true value of the population proportion p."  This means that if we were to select many different samples of size 1007 and construct the corresponding confidence intervals, 95% of them would actually contain the value of the population proportion p.  (In this correct interpretation, the confidence level of 95% refers to the success rate of the process used to estimate the population proportion.)
+**Correct:** "We are 95% confident that the interval from 0.828 to 0.872 actually does contain the true value of the population proportion p."  This means that if we were to select many different samples of size 1007 and construct the corresponding confidence intervals, 95% of them would actually contain the value of the population proportion p.  (In this correct interpretation, the confidence level of 95% refers to the success rate of the process used to estimate the population proportion.)
 
-** Incorrect:** "There is a 95% chance that the true value of p will fall between 0.828 and 0.872"
+**Incorrect:** "There is a 95% chance that the true value of p will fall between 0.828 and 0.872"
 
-** Incorrect:** "95% of sample proportions will fall between 0.828 and 0.872"
+**Incorrect:** "95% of sample proportions will fall between 0.828 and 0.872"
 
 ---
 
@@ -116,7 +116,7 @@ We must be careful to interpet confidence intervals correctly.  There is a corre
 
 3. Evaluate the margin of error E = Za/2 sqrt(pq/n)
 
-4. Using the value of the calculated margin error E and the value of the sample proportion p̂, find the values of the confidence interval limits p̂ - E and p̂ + E.  Substiute those values in the general format for the confidence interval p̂ - E < p < p̂ + E or p̂ + or - E or (p̂ - E, p̂ + E)
+4. Using the value of the calculated margin error E and the value of the sample proportion p̂, find the values of the confidence interval limits p̂ - E and p̂ + E.  Substitute those values in the general format for the confidence interval p̂ - E < p < p̂ + E or p̂ + or - E or (p̂ - E, p̂ + E)
 
 5. Round the resulting confidence interval limits to three significant digits.
 
@@ -134,7 +134,7 @@ We must be careful to interpet confidence intervals correctly.  There is a corre
 
 Determining how large the sample n should be in order to estimate the population proportion p.
 
-**Noation**
+**Notation**
 ---
 
 p = population proportion
@@ -145,7 +145,7 @@ n = number of sample values
 
 E = desired margin of error
 
-Za = z score seperating an area of a/2 in the right tail of the standard normal distribution
+Za = z score separating an area of a/2 in the right tail of the standard normal distribution
 
 ---
 
@@ -174,7 +174,7 @@ When no estimate p̂ is known: Formula 7-3 n = [Za/2]^2•0.25/E^25
 
 * **Confidence Interval:** We can use a sample mean to construct a confidence interval estimate of the true value of a population mean, and we should know how to construct and interpret such confidence intervals.
 
-* **Sample Size:** We should know how to find the sample size neccessary to estimate a population mean.
+* **Sample Size:** We should know how to find the sample size necessary to estimate a population mean.
 
 ---
 
@@ -185,7 +185,7 @@ The sample mean x̄ is an unbiased estimator of the population mean µ, and for 
 
 ---
 
-> **The sample mean x̄ is the best point estimator of the populaton mean µ.
+> **The sample mean x̄ is the best point estimator of the population mean µ.**
 
 ---
 
@@ -233,7 +233,7 @@ E = ta•s/√n
 **Round-Off Rule**
 ---
 
-1. When constructing a confidence interval from the original set of data values, round the confidence interval limits to one more decimal place than is used for the orginal set of data.
+1. When constructing a confidence interval from the original set of data values, round the confidence interval limits to one more decimal place than is used for the original set of data.
 
 2. When constructing a confidence interval from summary statistics (n and x̅ and s), round the confidence interval limits to the same number of decimal places used for the sample mean.
 
@@ -310,19 +310,19 @@ x - E < µ < x + E
 ---
 
 * **Point Estimate:** The sample variance s^2 is the best point estimate (or single value estimate) of the population variance σ^2
-* **Confidence Interval:**  When constructing a confidence interval estimate of a population standard deviation (or population variance), we construct the confidence interval using the X^2 (chi-square) distrbution.
+* **Confidence Interval:**  When constructing a confidence interval estimate of a population standard deviation (or population variance), we construct the confidence interval using the X^2 (chi-square) distribution.
 * **Chi-Square Distribution:**  We should know how to find critical values of X^2
 
 ---
 
-### Estimating a Population Standard Deviation or Variance 
+### Estimating a Population Standard Deviation or Variance
 ---
 
 In a normally distributed population with variance let σ^2, if we randomly select independent samples of size n and, for each sample, compute the sample variance s^2 (which is the square of the sample standard deviation s), the sample statistic X^2 = (n-1)s^2/σ^2 has a sampling distribution called the chi-square distribution.
 
 ---
 
-* **Finding Critical Values of X^2** We denote a right-tailed critical value by X^2R and we denote a left-tailed critical value X^2L.  Those critcal values can found by using technology or Table A-4, and they require that we first determine a value for the number of degrees of freedom.
+* **Finding Critical Values of X^2** We denote a right-tailed critical value by X^2R and we denote a left-tailed critical value X^2L.  Those critical values can found by using technology or Table A-4, and they require that we first determine a value for the number of degrees of freedom.
 * **Degrees of Freedom** In general, the number of **degrees of freedom** (or **df**) for a collection of sample data is the number of sample values than can vary after certain restrictions have been imposed on all data values.  For the methods of this section, the number of degrees of freedom is the sample size minus 1.
 
 **Degrees of Freedom: df = n -1**
@@ -376,9 +376,9 @@ X2R = right-tailed critical value of X2
 **Requirements**
 ---
 
-1. The sample is a simple random sample. 
+1. The sample is a simple random sample.
 
-2. The population must have normally distributed values (even if the sample is large).  The requirement of a normal distribution is much stricter here than in earlier sections, so departures from normal distributions can result in large errors. 
+2. The population must have normally distributed values (even if the sample is large).  The requirement of a normal distribution is much stricter here than in earlier sections, so departures from normal distributions can result in large errors.
 
 ---
 
@@ -399,21 +399,21 @@ Pg 364
 
 ---
 
-> **Caution** COnfidence intervals can be used informally to compare the variation in different data sets, but the overlapping of confidence intervals should not be used for making formal and final conclusions about equality of variances or standard deviations. 
+> **Caution** Confidence intervals can be used informally to compare the variation in different data sets, but the overlapping of confidence intervals should not be used for making formal and final conclusions about equality of variances or standard deviations.
 
 ---
 
 ### Using Confidence Intervals for Hypothesis Tests
 ---
 
-> **Caution** Kown that in this chapter, when we use a confidence interval to address a claim about σ or σ^2, we are making an informal judgment (that may or may not be consistent with formal methods of hypothesis testing introduced in Chapter 8).
+> **Caution** Know that in this chapter, when we use a confidence interval to address a claim about σ or σ^2, we are making an informal judgment (that may or may not be consistent with formal methods of hypothesis testing introduced in Chapter 8).
 
 ---
 
 ### Table 7-2
 ---
 
-|  σ  |  | 
+|  σ  |  |
 | --- | --- |
 | **To be 95% confident that s is within** | **of the value of σ, the sample size n should be at least** |
 | 1% | 19,205 |
@@ -434,7 +434,7 @@ Pg 364
 
 ---
 
-| σ^2 | | 
+| σ^2 | |
 | --- | --- |
 | **To be 95% confident that s^2 is within** | **of the value σ^2 the sample size n should be at least**|
 | 1% | 77,208 |
